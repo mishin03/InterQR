@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		093EB73FB74FF38CF48CFD6A /* Pods_InterQRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD34185810C6678D512CC02 /* Pods_InterQRTests.framework */; };
-		0FB514728994DB257FD4775C /* Pods_InterQR_InterQRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94589173BB1274B0CBECBAF4 /* Pods_InterQR_InterQRUITests.framework */; };
-		5C1B33F728E4400F00EBD057 /* Pods_InterQR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD663DA8CB70BD4CFA76F6AC /* Pods_InterQR.framework */; };
+		0550BC0C3B5E3288458FF2ED /* Pods_InterQR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E5F591E78E6056B7A2841B /* Pods_InterQR.framework */; };
+		0FE64F9951644CFD3C0CD695 /* Pods_InterQR_InterQRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B543BA12EF7E5FD11CB99816 /* Pods_InterQR_InterQRUITests.framework */; };
 		5C21699028D4F93900B36677 /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C21698F28D4F93900B36677 /* Door.swift */; };
 		5C33EECB28CB9FB2004D16D1 /* Sk-Modernist-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C33EECA28CB9FB2004D16D1 /* Sk-Modernist-Regular.otf */; };
 		5C33EECD28CBA637004D16D1 /* Sk-Modernist-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C33EECC28CBA637004D16D1 /* Sk-Modernist-Bold.otf */; };
@@ -26,6 +25,7 @@
 		5CCBB04E28CB1FBA00DA717E /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCBB04D28CB1FBA00DA717E /* HeaderCollectionReusableView.swift */; };
 		5CDC4EE928C9D12000F39E38 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC4EE828C9D12000F39E38 /* Resources.swift */; };
 		5CDC4EEC28C9D27F00F39E38 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC4EEB28C9D27F00F39E38 /* UIColor + ext.swift */; };
+		A4313767EEDA203F96B504D1 /* Pods_InterQRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E8C4997745B5FF41063906 /* Pods_InterQRTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +45,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5CB9127D290C21E400549252 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		1C7DE90CCFBFCCF35A22FBF4 /* Pods-InterQR-InterQRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterQR-InterQRUITests.debug.xcconfig"; path = "Target Support Files/Pods-InterQR-InterQRUITests/Pods-InterQR-InterQRUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4FB17FBE3E544A3EDF62EECD /* Pods-InterQRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterQRTests.debug.xcconfig"; path = "Target Support Files/Pods-InterQRTests/Pods-InterQRTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A5CFA63A5E3F9DC175CCF08 /* Pods-InterQR-InterQRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterQR-InterQRUITests.debug.xcconfig"; path = "Target Support Files/Pods-InterQR-InterQRUITests/Pods-InterQR-InterQRUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33E5F591E78E6056B7A2841B /* Pods_InterQR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E929B2116DDA04F77D7E3C /* Pods-InterQRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterQRTests.release.xcconfig"; path = "Target Support Files/Pods-InterQRTests/Pods-InterQRTests.release.xcconfig"; sourceTree = "<group>"; };
+		547537F6D9F8DC0DEAD2AF88 /* Pods-InterQR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterQR.release.xcconfig"; path = "Target Support Files/Pods-InterQR/Pods-InterQR.release.xcconfig"; sourceTree = "<group>"; };
 		5C21698F28D4F93900B36677 /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
 		5C33EECA28CB9FB2004D16D1 /* Sk-Modernist-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sk-Modernist-Regular.otf"; sourceTree = "<group>"; };
 		5C33EECC28CBA637004D16D1 /* Sk-Modernist-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sk-Modernist-Bold.otf"; sourceTree = "<group>"; };
@@ -68,13 +83,11 @@
 		5CCBB04D28CB1FBA00DA717E /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		5CDC4EE828C9D12000F39E38 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		5CDC4EEB28C9D27F00F39E38 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
-		62139DF85F0737C62683D20F /* Pods-InterQR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterQR.release.xcconfig"; path = "Target Support Files/Pods-InterQR/Pods-InterQR.release.xcconfig"; sourceTree = "<group>"; };
-		82674F388FB747388E336880 /* Pods-InterQRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterQRTests.release.xcconfig"; path = "Target Support Files/Pods-InterQRTests/Pods-InterQRTests.release.xcconfig"; sourceTree = "<group>"; };
-		94589173BB1274B0CBECBAF4 /* Pods_InterQR_InterQRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterQR_InterQRUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A08AE4A4C462406E6EA378D8 /* Pods-InterQR-InterQRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterQR-InterQRUITests.release.xcconfig"; path = "Target Support Files/Pods-InterQR-InterQRUITests/Pods-InterQR-InterQRUITests.release.xcconfig"; sourceTree = "<group>"; };
-		AAD34185810C6678D512CC02 /* Pods_InterQRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterQRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD663DA8CB70BD4CFA76F6AC /* Pods_InterQR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2D73FC9E2D82029F9F2A789 /* Pods-InterQR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterQR.debug.xcconfig"; path = "Target Support Files/Pods-InterQR/Pods-InterQR.debug.xcconfig"; sourceTree = "<group>"; };
+		8FC3A6F00DB54B5EAE6CD58A /* Pods-InterQR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterQR.debug.xcconfig"; path = "Target Support Files/Pods-InterQR/Pods-InterQR.debug.xcconfig"; sourceTree = "<group>"; };
+		B02609E98072C94D7A913783 /* Pods-InterQRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterQRTests.debug.xcconfig"; path = "Target Support Files/Pods-InterQRTests/Pods-InterQRTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B543BA12EF7E5FD11CB99816 /* Pods_InterQR_InterQRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterQR_InterQRUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E8C4997745B5FF41063906 /* Pods_InterQRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterQRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C340139DAFE2D8B0038E5ECD /* Pods-InterQR-InterQRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterQR-InterQRUITests.release.xcconfig"; path = "Target Support Files/Pods-InterQR-InterQRUITests/Pods-InterQR-InterQRUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C1B33F728E4400F00EBD057 /* Pods_InterQR.framework in Frameworks */,
+				0550BC0C3B5E3288458FF2ED /* Pods_InterQR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				093EB73FB74FF38CF48CFD6A /* Pods_InterQRTests.framework in Frameworks */,
+				A4313767EEDA203F96B504D1 /* Pods_InterQRTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,19 +111,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FB514728994DB257FD4775C /* Pods_InterQR_InterQRUITests.framework in Frameworks */,
+				0FE64F9951644CFD3C0CD695 /* Pods_InterQR_InterQRUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		238A99E60765E30A3B33FADC /* Frameworks */ = {
+		50669182448DD92677211189 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD663DA8CB70BD4CFA76F6AC /* Pods_InterQR.framework */,
-				94589173BB1274B0CBECBAF4 /* Pods_InterQR_InterQRUITests.framework */,
-				AAD34185810C6678D512CC02 /* Pods_InterQRTests.framework */,
+				33E5F591E78E6056B7A2841B /* Pods_InterQR.framework */,
+				B543BA12EF7E5FD11CB99816 /* Pods_InterQR_InterQRUITests.framework */,
+				B9E8C4997745B5FF41063906 /* Pods_InterQRTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,7 +165,7 @@
 				5C55179828C49FE500926307 /* InterQRUITests */,
 				5C55177628C49FE300926307 /* Products */,
 				62E852709B0D1D247636B374 /* Pods */,
-				238A99E60765E30A3B33FADC /* Frameworks */,
+				50669182448DD92677211189 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,12 +247,12 @@
 		62E852709B0D1D247636B374 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F2D73FC9E2D82029F9F2A789 /* Pods-InterQR.debug.xcconfig */,
-				62139DF85F0737C62683D20F /* Pods-InterQR.release.xcconfig */,
-				1C7DE90CCFBFCCF35A22FBF4 /* Pods-InterQR-InterQRUITests.debug.xcconfig */,
-				A08AE4A4C462406E6EA378D8 /* Pods-InterQR-InterQRUITests.release.xcconfig */,
-				4FB17FBE3E544A3EDF62EECD /* Pods-InterQRTests.debug.xcconfig */,
-				82674F388FB747388E336880 /* Pods-InterQRTests.release.xcconfig */,
+				8FC3A6F00DB54B5EAE6CD58A /* Pods-InterQR.debug.xcconfig */,
+				547537F6D9F8DC0DEAD2AF88 /* Pods-InterQR.release.xcconfig */,
+				0A5CFA63A5E3F9DC175CCF08 /* Pods-InterQR-InterQRUITests.debug.xcconfig */,
+				C340139DAFE2D8B0038E5ECD /* Pods-InterQR-InterQRUITests.release.xcconfig */,
+				B02609E98072C94D7A913783 /* Pods-InterQRTests.debug.xcconfig */,
+				39E929B2116DDA04F77D7E3C /* Pods-InterQRTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -251,11 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C55179F28C49FE500926307 /* Build configuration list for PBXNativeTarget "InterQR" */;
 			buildPhases = (
-				3E3C9FD3C697FF0EB82C3C21 /* [CP] Check Pods Manifest.lock */,
+				716CEDA178868EC7A0A8FA46 /* [CP] Check Pods Manifest.lock */,
 				5C55177128C49FE200926307 /* Sources */,
 				5C55177228C49FE200926307 /* Frameworks */,
 				5C55177328C49FE200926307 /* Resources */,
-				91646464C9CA61A212A9C8A8 /* [CP] Embed Pods Frameworks */,
+				5CB9127D290C21E400549252 /* Embed Frameworks */,
+				E54AF0D301950E858919C986 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,7 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C5517A228C49FE500926307 /* Build configuration list for PBXNativeTarget "InterQRTests" */;
 			buildPhases = (
-				DEE47778FDE64943C1867C39 /* [CP] Check Pods Manifest.lock */,
+				231A60114996DA420D5EA58E /* [CP] Check Pods Manifest.lock */,
 				5C55178728C49FE500926307 /* Sources */,
 				5C55178828C49FE500926307 /* Frameworks */,
 				5C55178928C49FE500926307 /* Resources */,
@@ -289,11 +303,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C5517A528C49FE500926307 /* Build configuration list for PBXNativeTarget "InterQRUITests" */;
 			buildPhases = (
-				986D2E105992C8AACF63D000 /* [CP] Check Pods Manifest.lock */,
+				B9022C71844281F53E01D8C3 /* [CP] Check Pods Manifest.lock */,
 				5C55179128C49FE500926307 /* Sources */,
 				5C55179228C49FE500926307 /* Frameworks */,
 				5C55179328C49FE500926307 /* Resources */,
-				FB18A5F10943CE37E4E3DDC0 /* [CP] Embed Pods Frameworks */,
+				2E6A0827341F7C4844D2FBFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -377,68 +391,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3E3C9FD3C697FF0EB82C3C21 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-InterQR-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		91646464C9CA61A212A9C8A8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InterQR/Pods-InterQR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InterQR/Pods-InterQR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InterQR/Pods-InterQR-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		986D2E105992C8AACF63D000 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-InterQR-InterQRUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DEE47778FDE64943C1867C39 /* [CP] Check Pods Manifest.lock */ = {
+		231A60114996DA420D5EA58E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -460,7 +413,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FB18A5F10943CE37E4E3DDC0 /* [CP] Embed Pods Frameworks */ = {
+		2E6A0827341F7C4844D2FBFE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -475,6 +428,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InterQR-InterQRUITests/Pods-InterQR-InterQRUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		716CEDA178868EC7A0A8FA46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InterQR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9022C71844281F53E01D8C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InterQR-InterQRUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E54AF0D301950E858919C986 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterQR/Pods-InterQR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterQR/Pods-InterQR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InterQR/Pods-InterQR-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -590,7 +604,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -644,7 +658,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -656,7 +670,7 @@
 		};
 		5C5517A028C49FE500926307 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2D73FC9E2D82029F9F2A789 /* Pods-InterQR.debug.xcconfig */;
+			baseConfigurationReference = 8FC3A6F00DB54B5EAE6CD58A /* Pods-InterQR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -684,7 +698,7 @@
 		};
 		5C5517A128C49FE500926307 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62139DF85F0737C62683D20F /* Pods-InterQR.release.xcconfig */;
+			baseConfigurationReference = 547537F6D9F8DC0DEAD2AF88 /* Pods-InterQR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -712,7 +726,7 @@
 		};
 		5C5517A328C49FE500926307 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FB17FBE3E544A3EDF62EECD /* Pods-InterQRTests.debug.xcconfig */;
+			baseConfigurationReference = B02609E98072C94D7A913783 /* Pods-InterQRTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -733,7 +747,7 @@
 		};
 		5C5517A428C49FE500926307 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82674F388FB747388E336880 /* Pods-InterQRTests.release.xcconfig */;
+			baseConfigurationReference = 39E929B2116DDA04F77D7E3C /* Pods-InterQRTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -754,7 +768,7 @@
 		};
 		5C5517A628C49FE500926307 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C7DE90CCFBFCCF35A22FBF4 /* Pods-InterQR-InterQRUITests.debug.xcconfig */;
+			baseConfigurationReference = 0A5CFA63A5E3F9DC175CCF08 /* Pods-InterQR-InterQRUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -773,7 +787,7 @@
 		};
 		5C5517A728C49FE500926307 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A08AE4A4C462406E6EA378D8 /* Pods-InterQR-InterQRUITests.release.xcconfig */;
+			baseConfigurationReference = C340139DAFE2D8B0038E5ECD /* Pods-InterQR-InterQRUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

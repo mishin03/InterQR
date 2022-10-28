@@ -143,6 +143,7 @@ extension MyDoorsViewController {
         let settingsButton: UIButton = {
             let button = UIButton()
             button.setImage(Resources.Images.settingsButton, for: .normal)
+            button.addTarget(self, action: #selector(pressButton), for: .touchUpInside)
 
             return button
         }()
@@ -171,5 +172,10 @@ extension MyDoorsViewController {
             make.centerY.equalTo(interLabel)
         }
         
+    }
+    @objc func pressButton() {
+        let alert = UIAlertController(title: "Ooops", message: "This button is currently not functional", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default))
+        self.present(alert, animated: true, completion: nil)
     }
 }
