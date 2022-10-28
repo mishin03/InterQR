@@ -1,0 +1,6 @@
+framework module Pods_InterQRTests {
+  umbrella header "Pods-InterQRTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
