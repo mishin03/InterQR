@@ -28,5 +28,3 @@ import SnapKit
 
 
 https://user-images.githubusercontent.com/47899623/207615909-f16a7371-3a3c-4466-9b64-6b7617207e20.mp4
-
-
